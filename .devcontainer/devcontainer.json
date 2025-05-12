@@ -1,0 +1,34 @@
+{
+	"name" : "Lua HC3Emu",
+	"build": {
+			"dockerfile": "Dockerfile"
+	},
+	"features": {
+	},
+	"customizations": {
+			"vscode": {
+					"extensions": [
+						"LuaLS.lua-language-server",
+						"AlexeyMelnichuk.lua-mobdebug",
+						"gsonsoft-development.hc3emu-heler",
+						"LivePreview.vscode-live-server",
+						"LiveServer.live-server",
+						"ms-vscode.live-server"
+					]
+			}
+	},
+	"containerEnv": {
+		"HC3HOST": "192.168.1.32"
+	},
+	"runArgs": [
+		//"--add-host=glob.hc3emu.local:host",
+		"--add-host=api.hc3emu.local:host-gateway",
+    "--add-host=hc3emu.local:host-gateway"
+	],
+	"initializeCommand": "",
+	"forwardPorts": [
+		  8264,
+			8265,
+			8266
+	]
+}
