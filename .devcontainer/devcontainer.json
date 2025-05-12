@@ -18,7 +18,10 @@
 			}
 	},
 	"containerEnv": {
-		"HC3HOST": "192.168.1.32"
+		"HC3EMUHOST": "192.168.1.32",      // IP of PC/Laptop running hc3emu
+		"HC3USER": "<admin>",              // Remove <..> and replace with your username
+		"HC3PASSWORD": "<admin>",          // Remove <..> and replace with your password
+		"HC3URL": "<http://192.168.1.57/>" // Remove <..> and replace with your HC3 URL
 	},
 	"runArgs": [
 		//"--add-host=glob.hc3emu.local:host",
