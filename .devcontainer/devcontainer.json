@@ -10,10 +10,10 @@
 					"extensions": [
 						"LuaLS.lua-language-server",
 						"AlexeyMelnichuk.lua-mobdebug",
-						"gsonsoft-development.hc3emu-heler",
 						"LivePreview.vscode-live-server",
 						"LiveServer.live-server",
-						"ms-vscode.live-server"
+						"ms-vscode.live-server",
+						"GsonSoft-development.hc3emu-helper"
 					]
 			}
 	},
