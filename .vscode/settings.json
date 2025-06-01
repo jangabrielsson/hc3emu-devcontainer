@@ -6,7 +6,7 @@
 ],
 "Lua.editor.defaultFormatter": "JohnnyMorganz.stylua",
 "Lua.workspace.library": [
-    "/Users/jangabrielsson/.vscode/extensions/gsonsoft-development.hc3emu-heler-0.0.5/hc3emu-library"
+    "/Users/jangabrielsson/.vscode/extensions/gsonsoft-development.hc3emu-helper-0.0.6/hc3emu-library"
 ],
 "Lua.hint.enable": true,
 "Lua.workspace.checkThirdParty": "Disable",
