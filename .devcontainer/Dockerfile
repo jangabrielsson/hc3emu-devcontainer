@@ -44,7 +44,7 @@ RUN apk add --no-cache \
     && sudo luarocks install bit32 \
     && sudo luarocks install argparse \
     && sudo luarocks install datafile \
-    && sudo luarocks install hc3emu \
+    && sudo luarocks install hc3emu2 \
     && apk del gcc make curl wget libc-dev moreutils coreutils \
     && cp /usr/bin/lua5.4 /usr/bin/lua
 
