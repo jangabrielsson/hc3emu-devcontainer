@@ -18,10 +18,10 @@
 			}
 	},
 	"containerEnv": {
-		"HC3EMUHOST": "192.168.1.32",      // IP of PC/Laptop running hc3emu
-		"HC3USER": "<admin>",              // Remove <..> and replace with your username
-		"HC3PASSWORD": "<admin>",          // Remove <..> and replace with your password
-		"HC3URL": "<http://192.168.1.57/>" // Remove <..> and replace with your HC3 URL
+		"HC3EMUHOST": "192.168.1.33",      // IP of PC/Laptop running hc3emu
+		"HC3USER": "admin",              // Remove <..> and replace with your username
+		"HC3PASSWORD": "xyz",          // Remove <..> and replace with your password
+		"HC3URL": "http://192.168.1.57/" // Remove <..> and replace with your HC3 URL
 	},
 	"runArgs": [
 		//"--add-host=glob.hc3emu.local:host",
@@ -29,6 +29,9 @@
     "--add-host=hc3emu.local:host-gateway"
 	],
 	"initializeCommand": "",
+	"otherPortsAttributes": {
+		"requireLocalPort": true
+	},
 	"forwardPorts": [
 		  8264,
 			8265,
